@@ -242,3 +242,18 @@ textarea{
     line-height: 10px;
    
 }
+
+
+
+
+
+/* Responsive media query */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px){
+    .skills-container{
+        flex-direction: column;
+    }
+}
