@@ -256,8 +256,24 @@ textarea{
     .skills-container,
     .resume-container,
     footer,
+    .banner,
+    nav,
+    nav ul,
     .about-items{
         flex-direction: column;
+    }
+    nav ul{
+        gap: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+
+    .banner{
+        margin:20px;
+    }
+    .banner-profile-pic{
+        width: 200px;
     }
     footer,.about{
         padding: 20px;
